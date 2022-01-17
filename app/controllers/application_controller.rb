@@ -9,10 +9,12 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     # your code here
+    erb :home
   end
 
   get '/registrations/signup' do
     # your code here
+    erb :signup
   end
 
   post '/registrations' do
